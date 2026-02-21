@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>layout structure</title>
+    <style>
+        .head{
+            background-color: aquamarine;
+            margin:10px;
+            text-align: center;
+        }
+        .links{
+            background-color: rgba(116, 155, 142, 0.363);
+            margin: 10px;
+            text-align:center;
+        
+        }
+        .hero h1{
+            background-color: rgba(153, 224, 224, 0.26);
+            text-align: center;
+        }
+        .hero p{
+            color: black;
+            background-color: rgba(159, 182, 202, 0.671);
+        }
+        .color h1{
+            text-align: center;
+            background-color: rgba(197, 172, 134, 0.705);
+        }
+        .copyright{
+            color: white;
+            text-align: center;
+             background-color: black;
+        }
+        .submit{
+            margin: 5px;
+            padding: 5px;
+        }
+        .name{
+            margin: 10px;
+            padding: 10px;
+        }
+        .email{
+            margin: 10px;
+            padding: 10px;
+        }
+        .query{
+            margin: 10px;
+            padding: 10px;
+        }
+        .cnic{
+            margin: 10px;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 class="head">our webpage</h1>
+        <nav class="links">
+            <a href="index.html">home</a>
+            <a href="about.html">about</a>
+            <a href="services.html">services</a>
+        </nav>
+    </header>
+    <main>
+        <section class="hero"> 
+            <h1>welcome to our webpage</h1>
+         <p>Pakistan,[f] officially the Islamic Republic of Pakistan,[g] is a country in South Asia. It is the fifth-most populous country, with a population of over 241.5 million,[d] having the second-largest Muslim population as of 2023. Islamabad is the nation's capital, while Karachi is its largest city and financial centre. Pakistan is the 33rd-largest country by area.</p>
+        </section>
+        <section class="servives">
+            <h1 class="color">our services</h1>
+            <ul>
+                <li>web development</li>
+                <li>SEO</li>
+                <li>Graphics</li>
+            </ul>
+            <form>
+                 <label class="name">
+                    Name:
+                    <input type="text">
+                 </label>
+                 <label class="email">
+                    Email:
+                    <input type="email">
+                 </label>
+                 <label class="query">
+                    tell us query:
+                    <input type:query>
+                 </label>
+                 <label class="CNIC" display="inline">
+                    CNIC:
+                    <input type="CNIC">
+                 </label>
+                 <button type="submit" class="submit">submit</button>
+            </form>
+        </section>
+    </main> <br>
+    <footer class="copyright">copyright 2026</footer>
+
+
+
+
+
+</body>
+</html>
