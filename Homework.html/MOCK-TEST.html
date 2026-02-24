@@ -20,11 +20,23 @@
 }
 .font{
     font-size: 20px;
+    color: rgba(87, 13, 13, 0.842);
+}
+.ee{
+    font-size: 18px ;
+    color: rgb(104, 21, 21);
+}
+.style{
+    text-decoration: underline;
+}
+.color{
+    font-size: 18px;
+    color: rgb(104, 21, 21);
 }
     </style>
 </head>
 <body>
-    <h1 class="ss">Student Information</h1>
+    <h1 class="ss">Student Table</h1>
  <ul> 
  <p class="text">Subjects:</p>
         <li>English</li>
@@ -40,17 +52,17 @@
 </tr>
 <tr>
     <td>Maryam</td>
-    <td>Amna</td>
-    <td>Ali</td>
-</tr>
-<tr>
-    <td>20</td>
     <td>19</td>
-    <td>20</td>
+    <td>78</td>
 </tr>
 <tr>
-<td>58</td>
-<td>68</td>
+    <td>Aliza</td>
+    <td>19</td>
+    <td>60</td>
+</tr>
+<tr>
+<td>Zoya</td>
+<td>20</td>
 <td>80</td>
 </tr>
     </table>
@@ -58,7 +70,7 @@
         <p class="font">Paragraph:</p>
         <p class="pp">Pakistan,officially the Islamic Republic of Pakistan,is a country in South Asia. It is the fifth-most populous country, with a population of over 241.5 million,[d] having the second-largest Muslim population as of 2023. Islamabad is the nation's capital, while Karachi is its largest city and financial centre. Pakistan is the 33rd-largest country by area.</p> <br>
     </div> <br>
-    <h2>student form</h2>
+    <h2 class="style">Student Form</h2>
     <form>
         <label for="name">Name:
             <input type="text" minlength="5" required>
@@ -66,14 +78,14 @@
         <label for="email">Email:
             <input type="email">
         </label> <br>
-        <p>Gender:</p>
-             <label for="radio"> Male
-<input type="radio">
+        <p class="ee">Gender:</p>
+             <label for="male"> Male
+              <input type="radio" id="male" name="gender" value="=male">
+             </label> <br>
+             <label for="female">Female
+                <input type="radio" id="female" name="gender" value="female">
              </label>
-             <label for="radio">Female
-                <input type="radio">
-             </label>
-             <p>Subject:</p>
+             <p class="color">Subject:</p>
              <label for="checkbox">
                 english
                 <input type="checkbox">
@@ -81,14 +93,18 @@
              <label for="checkbox">
                 computer
                 <input type="checkbox">
-             </label> <br>
+             </label> 
+             <label for="checkbox">
+                Math
+                <input type="checkbox">
+             </label><br>
              <p>choose your city:</p>
              <select>
                 <option>lahore</option>
                 <option>karachi</option>
                 <option>islamabad</option>
              </select> 
-             <button>submit:</button> 
+             <button type="submit">submit:</button> 
     </form>
 </body>
 </html>
