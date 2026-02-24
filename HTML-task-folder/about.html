@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About me</title>
+</head>
+<body>
+    <h1>About me</h1>
+    <p>this page contain information about me.</p>
+    <h2>My hobbies</h2>
+    <ul>
+        <li>Reading</li>
+        <li>Football</li>
+        <li>coding</li>
+    </ul>
+    <a href="index.html">go back to home</a>
+    <h1>contact form</h1>
+    <form>
+        <lable>
+            Name:
+            <input type="text" required
+            minlength="5"
+            maxlength="20"
+            placeholder="enter your name">
+        </lable> <br>
+        <label>
+            email:
+            <input type="email" placeholder="enter your email">
+        </label> <br>
+        <lable>
+            password:
+            <input type="password">
+        </lable>
+        <br>
+        <p>gender</p>
+        <label>
+            male:
+            <input type="radio" name="gender">
+        </label>
+        <label>
+            female:
+            <input type="radio" name="gender">
+        </label>
+        <br>
+        <p>subjects</p>
+        <label>
+            html
+            <input type="checkbox">
+        </label>
+        <label>
+            css
+            <input type="checkbox">
+        </label>
+        <label>
+            Javascript
+            <input type="checkbox">
+        </label>
+        <br>
+        <lable> select city:
+        <select>
+            <option hidden>
+             select city
+            </option>
+            <option>lahore</option>
+            <option>islamabad</option>
+            <option>karachi</option>
+        </select>
+        </lable> <br>
+        <lable> your message:
+        <textarea rows="4" cols="30"></textarea>
+         </lable>
+         <br>
+         <button type="submit">send</button>
+    </form>
+    
+</body>
+</html>
